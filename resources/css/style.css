@@ -1,0 +1,25 @@
+.navbar {
+    background-color: rgb(232, 232, 243);
+    padding: 8px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbar ul a li {
+    list-style-type: none;
+    padding: 8px;
+    margin-right: 0.5em;
+    cursor: pointer;
+    /* background-color: rebeccapurple; */
+}
+.navbar ul a li.active {
+    font-weight: bold;
+    color: crimson;
+    font-size: 18px;
+    border-bottom: 2px solid crimson;
+}
+a {
+    all: unset;
+}
